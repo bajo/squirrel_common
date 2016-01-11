@@ -15,6 +15,9 @@ add_message_files(
   FILES
   BBox.msg
   Classification.msg
+  Event.msg
+  Fitness.msg
+  Parameter.msg
   Saliency.msg
   ViewpointEntropy.msg
 )
@@ -46,6 +49,7 @@ add_service_files(
   SegmentsToObjects.srv
   StartObjectTracking.srv
   StopObjectTracking.srv
+  SwitchVision.srv
 )
 
 add_action_files(
